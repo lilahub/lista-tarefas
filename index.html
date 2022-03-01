@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    
+    <head>
+        <meta charset="UTF-8">
+        <title>Lista de tarefas diárias</title>
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="intro col-12">
+				<h1>Lista de Tarefas</h1>
+			</div>
+		</div>
+
+		<div class="opcoes">
+			<div class="col-12">
+				<p id="adicionar">Digite sua tarefa no espaço em branco abaixo para adicioná-la à sua lista.</p>
+				<p id="concluir">Clique no item da tarefa para marcá-la como atividade concluída.</p>
+				<p id="remover">Clique no "X" para remover a tarefa da sua lista.</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="dados col-3">
+				<input id="tarefa" type="text" placeholder="Nova Tarefa...">
+				<button id="enter"><i class=""><img src="images/check.png"></i></button>
+			</div>
+		</div>
+
+		<!-- Empty List -->
+		<div class="row">
+			<div class="listItems col-12">
+				<ul class="col-12 offset-0 col-sm-8 offset-sm-2" id="ul">
+				</ul>
+			</div>
+		</div>
+
+	</div>
+
+    <script src="list.js"></script>
+	
+</body>
+</html>
